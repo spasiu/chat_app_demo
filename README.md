@@ -22,5 +22,11 @@ Before you begin, make sure you have Node.js and npm (Node Package Manager) inst
 
 ## Usage
 
-To start the server, run: `node index` Your application will be running on [http://localhost:3434](http://localhost:3434). You can send POST requests to `/messages` endpoint with the following body structure: ` { "messages": [ { "role": "user", "content": "Your message here" }, ... ] }`
+To start the server, run: `node index`.
+
+Your application will be running on [http://localhost:3434](http://localhost:3434). You can send POST requests to `/messages` endpoint with the following body structure:
+
+```json
+{ "messages": [ { "role": "user", "content": "Your message here" }, ... ] }
+```
 
